@@ -60,11 +60,11 @@ int main(){
             cout<<"Jugador 2 retira: ";
             cin>>jugada;
         }while(!validacion(n,jugada));
+        n = n-jugada;
         if(n == 0){
             cout<<"Juego terminado, gana jugador 2"<<endl;
             break;
         }
-        n = n-jugada;
         graficar(n);
     }
 
