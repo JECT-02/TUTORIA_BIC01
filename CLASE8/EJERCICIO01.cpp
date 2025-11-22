@@ -76,8 +76,6 @@ int main(){
     // numero de repeticiones
     cout<<"El tercer valor mas bajo aparece "<<contador<<" veces"<<endl;
 
-
-
-
+    
     return 0;
 }
